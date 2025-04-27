@@ -1,0 +1,22 @@
+/dashboard-barbearia/
+├── /frontend/
+│   ├── /src/
+│   │   ├── /modules/
+│   │   │   ├── auth/          # Autenticação multiempresa
+│   │   │   ├── scheduling/    # Módulo de agendamentos
+│   │   │   └── financial/     # Análise financeira
+│   │   └── /stores/           # Gerenciamento de estado
+│   └── Dockerfile
+├── /backend/
+│   ├── /src/
+│   │   ├── /api/
+│   │   │   ├── v1/            # Endpoints por versão
+│   │   │   └── middleware/    # Autenticação multi-tenant
+│   │   ├── /services/
+│   │   │   ├── tenant/        # Isolamento por empresa
+│   │   │   └── reports/       # Gerador de relatórios
+│   │   └── /config/
+│   │       ├── db-connections # Configurações de tenant
+│   │       └── queues         # Filas para processamento
+│   └── docker-compose.yml
+└── /nginx/                    # Proxy reverso e SSL

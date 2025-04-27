@@ -1,0 +1,8 @@
+/projeto/
+├── /bot-agendamento/          # Lógica de agendamento, comunicação com empresas via API
+├── /dashboard-barbearia/      # Frontend (Dashboard) com Backend separado (API REST)
+│   ├── /api/                  # Endpoints de dados multiempresa
+│   ├── /models/               # Modelos de dados por empresa
+│   └── /config/               # Configurações específicas de cada empresa
+├── /db/                       # Banco de dados (multi-tenant)
+└── /infra/                    # Infraestrutura (Docker, Kubernetes, CI/CD)

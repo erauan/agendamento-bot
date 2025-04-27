@@ -1,0 +1,16 @@
+// Exemplo de modelo com discriminação de tenant
+{
+  _id: ObjectId,
+  tenant_id: String,  // Identificador da empresa
+  appointment: {
+    client: String,
+    service: String,
+    datetime: Date,
+    barber: String,
+    status: String // 'confirmed', 'canceled', 'completed'
+  },
+  metadata: {
+    created_at: Date,
+    modified_at: Date
+  }
+}
