@@ -1,0 +1,25 @@
+[
+  {
+    "id": "barbearia_001",
+    "nome": "Barbearia Teste",
+    "numero": "5513991372348",
+    "servicos": [
+      {"nome": "Corte", "valor": 45},
+      {"nome": "Barba", "valor": 25},
+      {"nome": "Corte + Barba", "valor": 60},
+      {"nome": "Sobrancelha", "valor": 5}
+    ],
+    "horarios": ["08:00", "09:00", "10:00", "11:00", "13:00", "14:00","15:00", "16:00", "17:00"],
+    "barbeiros": ["Lucas", "Flavio", "Rauan"]
+  },
+  {
+    "id": "5511999999999",
+    "numero": "5511999999999",
+    "nome": "Barbearia do Pedro",
+    "servicos": [
+      {"nome": "Corte", "valor": 50},
+      {"nome": "Barba", "valor": 30}
+    ],
+    "horarios": ["09:00", "10:30", "13:00", "14:30", "16:00"]
+  }
+]

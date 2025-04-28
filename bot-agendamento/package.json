@@ -1,0 +1,33 @@
+{
+  "name": "barbearia-projeto",
+  "version": "1.0.0",
+  "description": "Bot de agendamento para barbearia",
+  "main": "src/bot/index.js",
+  "scripts": {
+    "start": "node src/bot/index.js",
+    "dev": "nodemon src/bot/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "barbearia"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-react": "^7.26.3",
+    "axios": "^1.9.0",
+    "dotenv": "^16.4.1",
+    "moment": "^2.30.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "venom-bot": "^4.3.7",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

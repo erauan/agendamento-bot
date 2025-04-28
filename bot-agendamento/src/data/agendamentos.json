@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Rosana",
+    "telefone": "13988263418",
+    "servicos": "Corte + Barba",
+    "valor": 60,
+    "data": "18/04/2025",
+    "horario": "17:00",
+    "barbeiro": "Rauan"
+  },
+  {
+    "nome": "Ramon F",
+    "telefone": "11954300580",
+    "servicos": "Corte",
+    "valor": 45,
+    "data": "18/04/2025",
+    "horario": "10:30",
+    "barbeiro": "Lucas"
+  }
+]

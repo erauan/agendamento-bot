@@ -1,0 +1,24 @@
+# Exemplo de deployment para o bot
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bot-agendamento
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: bot
+  template:
+    spec:
+      containers:
+      - name: bot
+        image: seu-registro/bot-agendamento:latest
+        envFrom:
+        - configMapRef:
+            name: bot-config
+        - secretRef:
+            name: whatsapp-credentials
+        resources:
+          limits:
+            cpu: "1"
+            memory: "512Mi"

@@ -1,0 +1,16 @@
+
+/bot-agendamento/
+├── /src/
+│   ├── /core/                 # Lógica principal
+│   │   ├── flow-handler.js    # Fluxo de conversação
+│   │   └── message-parser.js  # Interpretação de mensagens
+│   ├── /adapters/             # Conexões externas
+│   │   ├── whatsapp-adapter   # Implementação Venom-Bot
+│   │   └── api-adapter        # Comunicação com o dashboard
+│   ├── /services/             # Lógica de negócio
+│   │   ├── scheduling.js      # Gestão de agendamentos
+│   │   └── notifications.js   # Lembretes e notificações
+│   └── /repositories/         # Acesso a dados
+│       └── multi-tenant.js    # Conexão com DB multiempresa
+├── Dockerfile
+└── docker-compose.yml
